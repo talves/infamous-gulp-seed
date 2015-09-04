@@ -33,7 +33,6 @@ npm i # install dependencies
  Run the build for production with ```gulp production```
 
  - Builds everything into `public`
- - (optional) supports `famous deploy`
 
 ---  
 

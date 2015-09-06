@@ -65,6 +65,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "famous": "talves/famous-engine#infamous/es6"
+    "infamous-engine": "talves/famous-engine#infamous/es6"
   }
 }

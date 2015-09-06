@@ -36,9 +36,20 @@ npm i # install dependencies
 
 ---  
 
+###Create [Demo][4] - Deploy to [Github Pages into org.github.io/repository-name][3] (gh-pages branch)
+Runs the "Production" build and creates a `gh-pages` branch if it does not exist and commits the `public` directory  
+
+```bash
+gulp deploy-production
+```
+
+---
+
 ###LICENSE
 
 MIT
 
 [1]: https://github.com/Infamous/engine
 [2]: https://github.com/gulpjs/gulp
+[3]: https://github.com/talves/infamous-gulp-seed/tree/gh-pages
+[4]: http://talves.github.io/infamous-gulp-seed/

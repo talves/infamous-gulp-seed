@@ -1,7 +1,7 @@
 var dest = './public';
 var src = './src';
 var imagesPath = '/images';
-var stylesPath = '/styles';
+var stylesPath = '/stylesheets';
 
 module.exports = {
   browserSync: {
@@ -32,6 +32,11 @@ module.exports = {
       dest: dest + '/js',
       outputName: 'bundle.js',
       // list of externally available modules to exclude from the bundle
+      external: ['jquery']
+    }, {
+      entries: src + '/site/index.js',
+      dest: dest + '/site/js',
+      outputName: 'bundle.js',
       external: ['jquery']
     }]
   },

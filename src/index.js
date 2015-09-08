@@ -24,4 +24,8 @@ var clock = FamousEngine.getClock();
 // Get a node of the Famous Logo
 var logo = new Logo(nextNode);
 console.log('logonode', logo);
-clock.setTimeout(logo.start.bind(logo), 2000);
+let _start = () => {
+  logo.start();
+}
+
+clock.setTimeout(_start, 2000);

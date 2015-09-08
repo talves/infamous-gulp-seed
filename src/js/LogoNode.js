@@ -38,14 +38,14 @@ export class LogoNode extends Node {
 
     // add the Dot & peg of the logo
     this.logoDot = new LogoDot(this.rootNode);
-    this.LogoPeg = new LogoPeg(this.rootNode);
+    this.logoPeg = new LogoPeg(this.rootNode);
 
     // Setup a custom component for animation
     this.dotAnimation = new Spinner(this.logoDot, {
       axis: Spinner.XAXIS,
       duration: 4000
     });
-    this.pegAnimation = new Spinner(this.LogoPeg, {
+    this.pegAnimation = new Spinner(this.logoPeg, {
       axis: Spinner.YAXIS,
       duration: 4000
     });
